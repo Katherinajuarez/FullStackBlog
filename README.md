@@ -25,5 +25,5 @@ Este es un proyecto desarrollado para la asignatura **Laboratorio de Práctica 2
 
 1. Clona el repositorio en tu máquina local.
    ```bash
-   git clone https://github.com/usuario/fullstackblog.git
+   git clone https://github.com/katherinajuarez/fullstackblog.git
 
