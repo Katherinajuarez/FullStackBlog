@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web fullstack blog">
+
+
+    <link rel="Prefetch" href="nosotros.html" as="document"> 
+
+    <link rel="Preload" href="/public/css/styles.css" as="style">
+    <link rel="stylesheet" href="/public/css/styles.css">
+
+    <link rel="Preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="font">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+
+    <link rel="Preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Fullstack blog</title>
+</head>
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra"> 
+
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin"><span class="logo__bold">FullStack</span>Blog</h1>
+                </a>
+
+                <nav class="navegacion"> 
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog dedicado a programación web fullstack con los mejores consejos y cursos</h2>
+            <p class="no-margin">Aprende las mejores técnicas y consejos aquí</p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+            <article class="post">
+                <div class="post__imagen">
+                    <picture>
+                        <img loading="lazy" src="/public/img/blog1.jpg" alt="imagen blog">
+                    </picture>
+                </div>
+                <div class="post__contenido">
+                    <h4 class="no-margin">Introducción a Javascript</h4>
+                    <p>Domina las funciones modernas de JavaScript como Promesas, async/await, y programación funcional para escribir código más limpio y eficiente.</p>
+                    <a class="buton buton--primario" href="post.html">Leer post</a>
+                </div>
+            </article>
+
+            <article class="post">
+                <div class="post">
+                    <picture>
+                        <img loading="lazy" src="/public/img/blog2.jpg" alt="imagen blog">
+                    </picture>
+                </div>
+                <div class="post__contenido">
+                    <h4 class="no-margin">MySQL interactivo</h4>
+                    <p>Introducción a SQL para la gestión eficiente de datos, creando consultas avanzadas y gestionando bases de datos con MySQL o PostgreSQL.</p>
+                    <a class="buton buton--primario" href="post.html">Leer post</a>
+                </div>
+            </article>
+            <hr class="hr">
+            <article class="post">
+                <div class="post__imagen">
+                    <picture>
+                        <img loading="lazy" src="/public/img/blog3.jpg" alt="imagen blog">
+                    </picture>
+                </div>
+                <div class="post__contenido">
+                    <h4 class="no-margin">HTML & CSS Avanzado</h4>
+                    <p>Aprende a crear sitios web responsivos y accesibles, implementando animaciones y transiciones avanzadas para mejorar la experiencia del usuario.</p>
+                    <a class="buton buton--primario" href="post.html">Leer post</a>
+                </div>
+            </article>
+        </main>
+
+        <aside class="sidebar">
+            <h3>Nuestros cursos y talleres</h3>
+
+            <ul class="cursos no-padding">
+                <li class="curso-side">
+                    <h4 class="no-margin">Frontend Development</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">$3500.50</span>
+                    </p>
+                    <p class="widget-curso__label">Cupos disponibles:
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    
+                    <a class="buton buton--secundario" href="post.html">Inscríbete aquí</a>
+                </li>
+                <li class="curso-side">
+                    <h4 class="no-margin">Backend Development</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">$5400.99</span>
+                    </p>
+                    <p class="widget-curso__label">Cupos disponibles:
+                        <span class="widget-curso__info">15</span>
+                    </p>
+                    
+                    <a class="buton buton--secundario" href="post.html">Inscríbete aquí</a>
+                </li>
+                <li class="curso-side">
+                    <h4 class="no-margin">APIs REST vs GraphQL</h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">$3100.35</span>
+                    </p>
+                    <p class="widget-curso__label">Cupos disponibles:
+                        <span class="widget-curso__info">8</span>
+                    </p>
+                    
+                    <a class="buton buton--secundario" href="post.html">Inscríbete aquí</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+    <footer class="footer">
+            <div class="contenedor">
+                <div class="barra barra-inferior"> 
+
+                    <a class="logo" href="index.html">
+                        <h1 class="logo__nombre no-margin"><span class="logo__bold">FullStack</span>Blog</h1>
+                    </a>
+
+                    <nav class="navegacion"> 
+                        <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                        <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                        <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                    </nav>
+                </div>
+            </div>
+    </footer>
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
