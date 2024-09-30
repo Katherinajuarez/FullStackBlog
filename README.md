@@ -1,4 +1,4 @@
-# FullStackBlog
+<h1>FullStackBlog</h1>
 
 Este es un proyecto desarrollado para la asignatura **Laboratorio de Práctica 2**, correspondiente al segundo año de la carrera de **Técnico Superior en Desarrollo de Software**. El objetivo de este proyecto es crear un blog de programación web FullStack, donde se comparten consejos y recursos educativos sobre desarrollo de software.
 
